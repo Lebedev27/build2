@@ -1,0 +1,13 @@
+{
+  "name": "TopMenu",
+  "items": [
+    {
+      "title": "Главная",
+      "link": "/"
+    },
+    {
+      "title": "Комплексный маркетинг",
+      "link": "/complex.html"
+    }
+  ]
+}

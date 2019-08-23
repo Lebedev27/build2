@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fe9023">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <title>{{ title }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/template/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/template/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/template/css/start.css">
+    <link rel="stylesheet" type="text/css" href="/template/css/consalt.css">
+    <link rel="stylesheet" type="text/css" href="/template/css/tools.css">
+    <link rel="stylesheet" type="text/css" href="/template/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/template/css/{{css}}.css">
+</head>
+<body>
+{{> header}}
+<main class="main">
+    <div class="container-outer">
+        <div class="breadcrumbs">
+            <a class="breadcrumbs__item" href="#">Главная</a>
+            <div class="breadcrumbs__item _active">Акции</div>
+        </div>
+        <div class="container-inner">
+            <h1 class="page-title">{{ title }}</h1>
+            {{> body}}
+        </div>
+    </div>
+</main>
+
+{{> footer}}
+{{> footer-scripts}}
+</body>
+</html>

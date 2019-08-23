@@ -1,0 +1,27 @@
+.arrow-icon {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #005daf;
+  border-radius: 30px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    border-bottom: 2px solid #005daf;
+    top: 50%;
+    left: 21%;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent transparent #005daf #005daf;
+    top: 35.8%;
+    left: 41%;
+    transform: rotate(-135deg);
+  }
+}
